@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///home/gustavo/%C3%81rea%20de%20trabalho/caelum/src/components/main.tsx"],"sourcesContent":["export function Main() {\n  return (\n    <main>\n      <h2>Bem-vindo ao Caelum</h2>\n      <p>Aqui você encontra os melhores serviços de acessibilidade digital.</p>\n    </main>\n  );\n}\n\nexport default Main;\n"],"names":[],"mappings":";;;;;;AAAO,SAAS;IACd,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;;;;;;;AAGT;uCAEe","debugId":null}},
+    {"offset": {"line": 61, "column": 0}, "map": {"version":3,"sources":["file:///home/gustavo/%C3%81rea%20de%20trabalho/caelum/src/components/footer.tsx"],"sourcesContent":["export function Footer() {\n  return (\n    <footer>\n      <p>© 2023 Caelum. Todos os direitos reservados.</p>\n    </footer>\n  );\n}\n\nexport default Footer;\n"],"names":[],"mappings":";;;;;;AAAO,SAAS;IACd,qBACE,8OAAC;kBACC,cAAA,8OAAC;sBAAE;;;;;;;;;;;AAGT;uCAEe","debugId":null}},
+    {"offset": {"line": 87, "column": 0}, "map": {"version":3,"sources":["file:///home/gustavo/%C3%81rea%20de%20trabalho/caelum/src/app/page.tsx"],"sourcesContent":["import { Header } from \"@/components/header\";\nimport { Main } from \"@/components/main\";\nimport { Footer } from \"@/components/footer\";\n\nexport default function Home() {\n  return (\n    <>\n      <Header />\n      <Main />\n      <Footer />\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;AACA;;;;;AAEe,SAAS;IACtB,qBACE;;0BACE,8OAAC,4HAAA,CAAA,SAAM;;;;;0BACP,8OAAC,0HAAA,CAAA,OAAI;;;;;0BACL,8OAAC,4HAAA,CAAA,SAAM;;;;;;;AAGb","debugId":null}}]
+}
