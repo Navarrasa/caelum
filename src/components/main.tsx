@@ -1,8 +1,9 @@
+import HeroBanner from "@/components/ui/heroBanner";
+
 export function Main() {
   return (
-    <main>
-      <h2>Bem-vindo ao Caelum</h2>
-      <p>Aqui você encontra os melhores serviços de acessibilidade digital.</p>
+    <main className="flex flex-col items-center justify-center w-full">
+      <HeroBanner />
     </main>
   );
 }
