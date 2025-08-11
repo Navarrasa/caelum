@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 export function Navbar() {
+
   return (
     <nav className="navbar flex w-auto justify-center items-center bg-[var(--azul-escurecido)] p-3 rounded-2xl">
       <ul className="flex gap-8 text-xl">
