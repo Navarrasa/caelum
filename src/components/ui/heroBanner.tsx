@@ -1,7 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay, Parallax } from "swiper/modules";
+import { Pagination, Autoplay, Parallax } from "swiper/modules";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -15,7 +15,7 @@ import Image4 from "@/assets/heroBanner/img4.jpg";
 
 export default function HeroBanner() {
   return (
-    <div className="w-full h-[700px] mt-8">
+    <div className="w-full h-[650px]">
       <Swiper
         modules={[Pagination, Autoplay, Parallax]}
         loop={true}
