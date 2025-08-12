@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import FadeInOnScroll from "@/components/ui/fadeOnScroll";
 import "./globals.css";
 
 const geistSans = Poppins({
@@ -26,9 +27,8 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/x-icon" href="/logo.ico" />
       </head>
-      <body
-        className={`${geistSans.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} antialiased`}>
+        <FadeInOnScroll />
         {children}
       </body>
     </html>
