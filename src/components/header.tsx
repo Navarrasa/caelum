@@ -11,7 +11,7 @@ export function Header() {
   const isMobile = useMediaQuery('(max-width: 639px)', { noSsr: true });
 
   return (
-    <header className="w-full flex justify-center items-center gradient-background p-2 text-[var(--text-color)]">
+    <header className="w-full flex justify-center items-center bg-[var(--azul-claro-escuro)] p-2 text-[var(--text-color)]">
       <div className="flex w-full items-center justify-between p-4">
         {/* Logo */}
         <div className="relative flex items-center justify-center w-40 h-16">

@@ -1,28 +1,32 @@
 @import "tailwindcss";
 
 :root {
-  /* Cores */
-  --azul-escuro: #2779DC;
+  /* Cores principais */
   --text-color: #ffffff;
-  --azul-escurecido: #0f6abe;
-  --azul-claro: #73CFFC;
-  --cinza-escuro: #333333;
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Azuis */
+  --azul-claro-escuro: #053c80;   /* Uso: cabeçalhos, blocos */
+  --azul-claro-escuro2: #2779DC;  /* Uso: botões, CTA */
+  --azul-claro-escuro3: #0f6abe;  /* Uso: destaques, bordas */
+  --azul-claro: #73CFFC;          /* Uso: hover, links */
+
+  /* Cinza */
+  --cinza-escuro: #2a2a2a;        /* Levemente mais suave que #333 */
+
+  /* Fundo */
+  --background: #031b38;          /* Fundo principal do site */
+  --foreground: #093263;          /* Elementos de primeiro plano */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #021227; /* Fundo ainda mais profundo no modo escuro */
+    --foreground: #0a2852;
   }
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 html, body {
@@ -65,14 +69,12 @@ body {
   animation: gradientShift 5s ease infinite;
 }
 
-/* Header styles */
-/* Background gradient for header */
-.gradient-background{
-  background: #333333;
-  background: linear-gradient(29deg, rgba(51, 51, 51, 1) 0%, rgba(30, 30, 86, 1) 15%, rgba(9, 9, 121, 1) 30%, rgba(6, 75, 164, 1) 53%, rgba(4, 115, 191, 1) 72%, rgba(2, 169, 227, 1) 86%, rgba(0, 212, 255, 1) 100%);
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
-
-.gradient-background2{
-  background: #333333;
-background: linear-gradient(161deg, rgba(51, 51, 51, 1) 0%, rgba(30, 30, 86, 1) 15%, rgba(9, 9, 121, 1) 30%, rgba(6, 75, 164, 1) 53%, rgba(4, 115, 191, 1) 72%, rgba(2, 169, 227, 1) 86%, rgba(0, 212, 255, 1) 100%);
+section.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }

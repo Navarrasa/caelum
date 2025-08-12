@@ -15,7 +15,7 @@ import Image4 from "@/assets/heroBanner/img4.jpg";
 
 export default function HeroBanner() {
   return (
-    <div className="w-full h-[650px]">
+    <section className="w-full lg:h-[850px] md:h-[750px] h-[750px] relative">
       <Swiper
         modules={[Pagination, Autoplay, Parallax]}
         loop={true}
@@ -100,6 +100,6 @@ export default function HeroBanner() {
           </div>
         </SwiperSlide>
       </Swiper>
-    </div>
+    </section>
   );
 }
