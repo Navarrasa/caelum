@@ -1,19 +1,12 @@
+import { VideoBackground } from "@/components/ui/video";
+
 function mainService() {
 
     return (
     
-        <section className="relative w-full h-[500px] flex items-center justify-center overflow-hidden">
+        <section className="relative w-full lg:h-[650px] md:h-[500px] h-[500px] flex items-center justify-center overflow-hidden">
             {/* Vídeo de fundo */}
-            <video
-                className="absolute inset-0 w-full h-full object-cover"
-                autoPlay
-                loop
-                muted
-                playsInline
-            >
-                <source src="/videos/hacker-dos-sonhos.mp4" type="video/mp4" />
-                Seu navegador não suporta vídeos.
-            </video>
+            <VideoBackground />
 
             {/* Overlay acinzentado */}
             <div className="absolute inset-0 bg-gray-900/50"></div>

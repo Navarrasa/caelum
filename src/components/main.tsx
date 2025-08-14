@@ -2,6 +2,7 @@ import HeroBanner from "@/components/ui/heroBanner";
 import HeroTransition from "@/components/herotransition";
 import Services from "@/components/services";
 import MainService from "@/components/mainservice";
+import ServicesInfo from "@/components/servicesinfo";
 
 export function Main() {
   return (
@@ -10,6 +11,7 @@ export function Main() {
       <HeroTransition />
       <Services />
       <MainService />
+      <ServicesInfo />
     </main>
   );
 }

@@ -36,10 +36,10 @@ export default function BasicMenu() {
         open={open}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}><Link href="/">Início</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link href="/servicos">Serviços</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link href="/sobre">Sobre Nós</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link href="/contato">Contato</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link href="#">Início</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link href="#IDservicos">Serviços</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link href="#IDabout">Sobre Nós</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link href="#contact">Contato</Link></MenuItem>
 
         {/* Divisor */}
         <hr className="my-2" />

@@ -6,7 +6,7 @@ export function Navbar() {
     <nav className="navbar flex w-auto justify-center items-center p-3 rounded-2xl">
       <ul className="flex gap-8 text-xl">
         <li className="transform hover:scale-110 transition duration-300 ease-in-out">
-          <Link href="/">Início</Link>
+          <Link href="#">Início</Link>
         </li>
         <li className="transform hover:scale-110 transition duration-300 ease-in-out">
           <Link href="#IDservicos">Serviços</Link>
