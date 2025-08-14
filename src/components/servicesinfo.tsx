@@ -28,18 +28,15 @@ function ServicesInfo() {
                     </p>
                 </div>
             </div>
-            <div className="flex flex-col mb-16 mt-8 sm:items-start">
+            <div id='contact' className="flex flex-col mb-16 mt-8 sm:items-start">
                 <div className="sm:text-3xl text-2xl font-bold mb-2 drop-shadow-lg text-justify">
                     <h2>Entre em contato conosco!</h2>
                 </div>
                 <div className=" text-xl w-full sm:w-6/12 text-justify">
                     <p>
                         Para mais informações sobre nossos serviços ou para agendar uma consulta, entre em contato conosco através do nosso site ou pelas redes sociais.
-                        <br />
-                        <br />
-                        <span className="sm:text-bold text-xl transform hover:scale-120 transition duration-300 ease-in-out">caelum@gmail.com</span>
-                        <br />
-                        <span className="sm:text-bold text-xl transform hover:scale-120 transition duration-300 ease-in-out">19 9999-9999</span>
+                        <p className="sm:text-bold text-xl transform hover:scale-105 transition duration-300 mt-4">caelum@gmail.com</p>
+                        <p className="sm:text-bold text-xl transform hover:scale-105 transition duration-300">19 9999-9999</p>
                     </p>
                 </div>
             </div>
