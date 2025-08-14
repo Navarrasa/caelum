@@ -31,7 +31,7 @@ export default function HeroBanner() {
         className="h-full"
       >
         {/* Slide 1 */}
-        <SwiperSlide className="relative">
+        <SwiperSlide className="relative h-full">
           <div data-swiper-parallax="-30%" className="absolute inset-0">
             <Image 
             src={Image1}
